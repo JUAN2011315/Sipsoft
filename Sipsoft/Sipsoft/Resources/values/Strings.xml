@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Sipsoft</string>
+
+  <string name="home_item">DashBoard</string>
+  <string name="clientes_item">Clietes</string>
+  <string name="compras_item">Carrito</string>
+  <string name="ordenes_item">Ordenes</string>
+  <string name="facturas_item">Facturas</string>
+  <string name="log_out_item">Cerrar Sesión</string>
+  <string name="configuracion_item">Configuración</string>
+</resources>

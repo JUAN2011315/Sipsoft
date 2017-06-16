@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+        <TextView
+            android:text="Nombre Cliente"
+            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      <EditText
+            android:id="@+id/Nombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="RFC"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="right" />
+        <EditText
+            android:id="@+id/Rfc"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Facturado"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="right" />
+        <EditText
+            android:id="@+id/Total"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>-->
+        <TextView
+            android:text="Contratados"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal" />
+      <EditText
+         android:id="@+id/Contratados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Emitidos"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal" />
+      <EditText
+         android:id="@+id/Emitidos"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Cancelados"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal" />
+      <EditText
+         android:id="@+id/Cancelados"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Disponibles"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal" />
+      <EditText
+         android:id="@+id/Disponibles"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Fecha Ultima Factura"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal" />
+      <EditText 
+            android:id="@+id/Ultima"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Insertar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnInsertar"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

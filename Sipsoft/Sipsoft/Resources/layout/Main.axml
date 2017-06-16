@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Inicio de Sesión"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSesion"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="0.0dp"
+        android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/microsoft" />
+        <Button
+            android:id="@+id/buttonLoginUserM"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:onClick="LoginMicrosoft"
+            android:text="Microsoft" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/twitter" />
+        <Button
+            android:id="@+id/buttonLoginUserT"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:onClick="LoginTwiter"
+            android:text="Twiter" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/facebook" />
+        <Button
+            android:id="@+id/buttonLoginUserF"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:onClick="LoginFacebook"
+            android:text="Facebook" />
+    </LinearLayout>
+</LinearLayout>
